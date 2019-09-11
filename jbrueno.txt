@@ -2,3 +2,16 @@
 Git username: jbrueno
 
 URL: https://github.com/jbrueno/cisc275-fall2019-first-git.git
+
+
+
+First part of the lab:
+In this space, type the sequence of commands you used to achieve the final state of all four files:
+
+Untracked: all I did was create a new file and do nothing further with it, leaving it as 'untracked'
+Modified: I added the file to the repo by using: git add filename, then git commit filename -m "commit message",
+	  then I modified the file by adding random text, but did not commit the modified file.  Then I typed in git status
+	  and the file shows up as modified
+Staged: I used the command: git add filename, and then did nothing else, leaving the file staged but not committed
+In the Repo: First I entered the command: git add filename, the the command: git commit filename -m "commit message"
+	     and to check if the file was in the repo I used: git log to confirm
